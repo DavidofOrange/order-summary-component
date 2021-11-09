@@ -9,7 +9,7 @@ body {
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: hsl(225, 100%, 94%);
+    background-color: white;
     min-height: 100vh;
 }
 
@@ -23,25 +23,27 @@ body {
     text-align: center;
     border-radius: 20px;
     overflow: hidden;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    box-shadow: -5px 10px 100px hsl(226, 22%, 73%);
 }
 
 
 .promo-text {
     text-align: center;
-    width: 70%;
-    margin: 5% 16%;
+    width: 64%;
+    margin: 5% 17.5%;
 }
 
 h1 {
     font-size: 1.4rem;
     color: hsl(223, 47%, 23%);
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 p {
-    font-size: 16px;
-    color: hsl(224, 23%, 55%)
+    font-size: 15px;
+    color: hsla(222, 19%, 73%);
+    font-weight: 900;
 }
 
 .price-plan-box {
@@ -51,7 +53,7 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 5%;
-    margin: 5% 10%;
+    margin: 5% 10% 10% 10%;
     border-radius: 10px;
 }
 
@@ -62,12 +64,13 @@ p {
 h2 {
     font-size: .8rem;
     color: hsl(223, 47%, 23%);
+    font-weight: 900;
 }
 
 .change-btn {
-    font-size: 14px;
+    font-size: 15px;
     color: hsl(245, 75%, 52%);
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .change-btn:hover {
@@ -138,12 +141,12 @@ h2 {
     .payment-btn {
         width: 80%;
         margin: 0% 13.5%;
-        font-size: 14px;
+        font-size: 16px;
     }
     .cancel-btn {
         width: 80%;
         margin: 0% 13.5%;
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
